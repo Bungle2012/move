@@ -1,0 +1,178 @@
+html, body {
+  margin: 0;
+  position: relative;
+}
+
+
+h1, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+
+ h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+  position: relative;
+  background-size: cover;
+}
+
+.main h1 {
+  font-size: 150px;
+}
+
+.main p {
+  font-size: 18px;
+}
+
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color:#1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  position: relative;
+  height: 600px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg);
+  background-size: cover;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding:50px 0 0;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+ 
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
+
+a {
+  background-color: black;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.move_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%)
+  
+}
+
+.footer > div{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%)
+}
+
+a:hover{
+background-color: #ffa800;
+}
